@@ -1,4 +1,4 @@
-# Sample Programs for Kafka 0.9 API
+# Sample Programs for Pact Consumer contract testing Kafka Messaging
 
 This project provides a simple example of a Kafka
 producer and consumer. These are then tested using the Pact consumer contract
