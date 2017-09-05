@@ -127,15 +127,6 @@ Embedded message received
 In a separate window, run the producer again without stopping the
 consumer. 
 
-## Remaining Mysteries
-If you change the consumer properties, particular the buffer sizes
-near the end of properties file, you may notice that the
-consumer can easily get into a state where it has about 5 seconds of
-timeouts during which no data comes from Kafka and then a full
-bufferful arrives. Once in this mode, the consumer tends to not
-recover to normal processing. It isn't clear what is going on, but
-setting the buffer sizes large enough can avoid the problem.
-
 ## Cleaning Up
 When you are done playing, stop Kafka and Zookeeper and delete the
 data directories they were using from /tmp
