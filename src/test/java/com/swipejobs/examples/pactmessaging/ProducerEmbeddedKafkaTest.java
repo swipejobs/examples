@@ -26,7 +26,7 @@ import static org.junit.Assert.assertThat;
  */
 @RunWith(PactRunner.class)
 @Provider("sampleKafkaProvider")
-@PactBroker(host="pactbroker.swipejobs.com", port="80")
+@PactBroker(host="localhost", port="8080")
 public class ProducerEmbeddedKafkaTest {
     /** This test case is intended to illustrate the more complex way of
      * testing a messaging provider using Pact.

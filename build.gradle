@@ -30,7 +30,7 @@ run {
 pact {
     publish {
         pactDirectory = 'target/pacts'
-        pactBrokerUrl = 'http://pactbroker.swipejobs.com'
+        pactBrokerUrl = 'http://localhost:8080'
     }
 }
 

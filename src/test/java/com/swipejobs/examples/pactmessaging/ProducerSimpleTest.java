@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  */
 @RunWith(PactRunner.class)
 @Provider("sampleKafkaProvider2")
-@PactBroker(host="pactbroker.swipejobs.com", port="80")
+@PactBroker(host="localhost", port="8080")
 public class ProducerSimpleTest {
     /** This test case is intended to illustrate the simple
      * way of testing a messaging provider using Pact.
