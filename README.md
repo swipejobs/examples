@@ -145,3 +145,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 $ rm -rf /tmp/zookeeper/version-2/log.1  ; rm -rf /tmp/kafka-logs/
 $
 ```
+
+## Security Patches
+
+- 2026-06-19 — release-cycle dependency security patch
